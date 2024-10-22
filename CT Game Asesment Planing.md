@@ -42,3 +42,5 @@ Proccessing: The game will check the players collision and position and if a ste
 Outputs: The game will show the scene and player model to the player aswell as the enviournmental, reactionary and maybe melodic sound
 Transmision: This will be a single player, offline game
 Storage: I will store the players progress locally
+
+poo poo
