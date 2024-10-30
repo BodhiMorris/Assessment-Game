@@ -11,7 +11,7 @@ Within the gaming market there are very few games where you just wander, there i
 
 
 __Skill Development__  
-Being a simple game in terms of mechanics I could probably use the tutorial that you provided us or ask my brother who is into gamedev and would know good resources that I could watch on YouTube. I would have to develop skills in my sound design to achieve the wanted feel of the game, and I would have to develop skills in game/level design.
+Being a simple game in terms of mechanics I could probably use the tutorial that you provided us or ask my brother who is into gamedev and would know good resources thatv hdxsrw I could watch on YouTube. I would have to develop skills in my sound design to achieve the wanted feel of the game, and I would have to develop skills in game/level design.
 
 
 __Brainstorm__  
@@ -58,7 +58,7 @@ The user will use the directional keys on their keyboard (WASD + spacebar or arr
 
 
 __Core Gameplay or Simulation Mechanics__  
-The only gameplay mechanics will be movement based, I will add normal 2d platformer movement like moving, jumping, wall jumps and maybe a grappling mechanic.
+The only gameplay mechanics will be movement based, I will add normal 2d platformer movement like moving, jumping and wall jumps
 
 
 __Level Progresion__  
