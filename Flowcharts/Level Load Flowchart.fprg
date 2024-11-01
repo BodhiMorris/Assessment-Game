@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Level Load Flowchart"/>
+        <attribute name="authors" value="bodhi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-01 03:07:25 PM"/>
+        <attribute name="created" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTEtMDE7MDI6MzQ6NTAgUE07Mjk0Ng=="/>
+        <attribute name="edited" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTEtMDE7MDM6MDc6MjUgUE07MjszMDU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <while expression="&quot;Game running&quot;">
+                <output expression="&quot;load (player level)(n), (player level)(n+1), (player level)(n-1)&quot;" newline="True"/>
+                <if expression="&quot;If player quits level, game running = False&quot;">
+                    <then/>
+                    <else/>
+                </if>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

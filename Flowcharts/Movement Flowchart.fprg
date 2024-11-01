@@ -4,25 +4,25 @@
         <attribute name="name" value="Movement Flowchart"/>
         <attribute name="authors" value="bodhi"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-10-30 12:21:28 PM"/>
+        <attribute name="saved" value="2024-11-01 02:34:05 PM"/>
         <attribute name="created" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTAtMzA7MTI6MTQ6MDkgUE07Mjk1MA=="/>
-        <attribute name="edited" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTAtMzA7MTI6MjE6MjggUE07MTszMDU3"/>
+        <attribute name="edited" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTEtMDE7MDI6MzQ6MDUgUE07MzszMDU2"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <input variable="User"/>
-            <if expression="&quot;A pressed&quot;">
+            <if expression="&quot;A OR joystick left pressed&quot;">
                 <then>
                     <output expression="&quot;Move player left&quot;" newline="True"/>
                 </then>
                 <else>
-                    <if expression="&quot;D pressed&quot;">
+                    <if expression="&quot;D OR joystick right pressed&quot;">
                         <then>
                             <output expression="&quot;Move player right&quot;" newline="True"/>
                         </then>
                         <else>
-                            <if expression="&quot;W OR spacebar pressed&quot;">
+                            <if expression="&quot;W OR spacebar OR joystick A pressed&quot;">
                                 <then>
                                     <if expression="&quot;Player touching ground&quot;">
                                         <then>
