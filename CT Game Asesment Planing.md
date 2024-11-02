@@ -110,20 +110,37 @@ The idea of my game is to be a relaxing platformer which lets you enjoy the time
 __Cultural Sensitivites__  
 My game wont have any offensive content and will have little to no symbols as it is focused on the feeling of the area rather than what is actually in it.
 
-## _Flowcharts
+## __Flowcharts__
 
-## _Pseudocode
+## __Pseudocode__
 
 BEGIN Movement  
-&nbsp;INPUT userInput  
-&nbsp;IF 'A' pressed THEN  
-&nbsp;&nbsp;Move player left  
-&nbsp;ELSE IF 'D' pressed THEN  
-&nbsp;&nbsp;Move player right  
-&nbsp;ELSE IF 'Spacebar' or 'W' pressed THEN  
-&nbsp;&nbsp;IF player touching ground THEN  
-&nbsp;&nbsp;&nbsp;Move player jump  
-&nbsp;&nbsp;ELSE IF player on wall  
-&nbsp;&nbsp;&nbsp;More player walljump  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INPUT userInput  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF 'A' pressed THEN  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Move player left  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF 'D' pressed THEN  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Move player right  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF 'Spacebar' or 'W' pressed THEN  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF player touching ground THEN  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Move player jump  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ELSE IF player on wall  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;More player walljump  
   
 END Movement
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+BEGIN Level_Load  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHILE Game_Running == True  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Load PlayerLevel(n), PlayerLevel(n+1), PlayerLevel(n-1)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IF Menu_Selecet(Quit) == True  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Game_Running == False  
+
+END Level_Load
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+BEGIN Progress_Save    
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If Level(n), complete == TRUE  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print (n) to text document  
+
+END Progress_Save

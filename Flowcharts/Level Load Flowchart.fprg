@@ -4,16 +4,16 @@
         <attribute name="name" value="Level Load Flowchart"/>
         <attribute name="authors" value="bodhi"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2024-11-02 11:04:11 AM"/>
+        <attribute name="saved" value="2024-11-02 11:26:19 AM"/>
         <attribute name="created" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTEtMDE7MDI6MzQ6NTAgUE07Mjk0Ng=="/>
-        <attribute name="edited" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTEtMDI7MTE6MDQ6MTEgQU07MzszMDM2"/>
+        <attribute name="edited" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTEtMDI7MTE6MjY6MTkgQU07NDszMDQ5"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <while expression="&quot;Game running&quot;">
                 <output expression="&quot;load (player level)(n), (player level)(n+1), (player level)(n-1)&quot;" newline="True"/>
-                <if expression="&quot;level select (quit) = true&quot;">
+                <if expression="&quot;menu select (quit) = true&quot;">
                     <then>
                         <output expression="&quot;Game running = False&quot;" newline="True"/>
                     </then>
