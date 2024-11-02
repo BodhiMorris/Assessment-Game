@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Progress Save Flowchart"/>
+        <attribute name="authors" value="bodhi"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-11-02 11:07:30 AM"/>
+        <attribute name="created" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTEtMDI7MTE6MDQ6NDYgQU07MjkzNA=="/>
+        <attribute name="edited" value="Ym9kaGk7Qk9ESElTX0NPTVBVVEVSOzIwMjQtMTEtMDI7MTE6MDc6MzAgQU07MTszMDM4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <if expression="&quot;level (n), complete = True&quot;">
+                <then>
+                    <output expression="&quot;Add (n) to text document&quot;" newline="True"/>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

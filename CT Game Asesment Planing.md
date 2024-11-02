@@ -109,3 +109,21 @@ The idea of my game is to be a relaxing platformer which lets you enjoy the time
 
 __Cultural Sensitivites__  
 My game wont have any offensive content and will have little to no symbols as it is focused on the feeling of the area rather than what is actually in it.
+
+## _Flowcharts
+
+## _Pseudocode
+
+BEGIN Movement  
+&nbsp;INPUT userInput  
+&nbsp;IF 'A' pressed THEN  
+&nbsp;&nbsp;Move player left  
+&nbsp;ELSE IF 'D' pressed THEN  
+&nbsp;&nbsp;Move player right  
+&nbsp;ELSE IF 'Spacebar' or 'W' pressed THEN  
+&nbsp;&nbsp;IF player touching ground THEN  
+&nbsp;&nbsp;&nbsp;Move player jump  
+&nbsp;&nbsp;ELSE IF player on wall  
+&nbsp;&nbsp;&nbsp;More player walljump  
+  
+END Movement
