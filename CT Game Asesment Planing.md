@@ -128,7 +128,9 @@ BEGIN Movement
   
 END Movement
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+-----------------------------------------------------------------------------------------------------------------------------------------------
+    
+
 BEGIN Level_Load  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WHILE Game_Running == True  
@@ -138,7 +140,8 @@ BEGIN Level_Load
 
 END Level_Load
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    
+-----------------------------------------------------------------------------------------------------------------------------------------------
+   
 BEGIN Progress_Save    
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If Level(n), complete == TRUE  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Print (n) to text document  
