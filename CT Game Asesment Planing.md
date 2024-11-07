@@ -221,5 +221,11 @@ END Progress_Save
 the scene storyboards were handed in physically due to not being able to scan them properly
 
 
+## __Gantt Chart__
+I couldn't save the sheet as a pdf so here is a link so you can still view it  
+https://docs.google.com/spreadsheets/d/1rjJ4KwI1wuyGXs3Cq1gmBSHrShUdK7UU8A34MAMzJM0/edit?usp=sharing
+
+## Epic Music
+
 https://www.youtube.com/watch?v=bBQA7yy7EBU&t=1150s  
 https://www.youtube.com/watch?v=hvuojhm02Yk&t=1010s
